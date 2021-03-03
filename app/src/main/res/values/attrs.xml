@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+     <declare-styleable name="RoundedDashView">
+
+         <attr name="primary_circle_radius" format="dimension" />
+         <attr name="primary_circle_topMargin" format="dimension" />
+
+         <attr name="secondory_circle_radius" format="dimension" />
+
+         <attr name="secondory_circle_topMargin" format="dimension" />
+
+         <attr name="dasheffect_margin" format="dimension" />
+         <attr name="dasheffect_height_matchParent" format="boolean" />
+
+         <attr name="primary_cicle_color" format="color" />
+         <attr name="secondory_color" format="color" />
+
+     </declare-styleable>
+
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragFromEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
