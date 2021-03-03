@@ -20,7 +20,7 @@ public class RoundedDashView extends View {
     private Paint paintFirstCircle = new Paint(Paint.ANTI_ALIAS_FLAG);
     private Paint paintAfterFirstCircle = new Paint(Paint.ANTI_ALIAS_FLAG);
     private Path path = new Path();
-
+//changes
 
     private int primaryCircleMargin;
     private int dashEffectMargin;
